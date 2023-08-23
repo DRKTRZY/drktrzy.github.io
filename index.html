@@ -1,59 +1,103 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="./resources/css/index.css"  rel="stylesheet" type="text/css">
-        <title>Kaffispresso</title>
+        <title>GymGem</title>
+        <link rel="stylesheet" href="resources/css/styles.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
+            <a href=""><img src="resources/images/gymgem.png" alt="brand logo gem" height="75" width="75"></a>
+            <h2><a href="" class="logo-text">GymGem.</a></h2>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Menüs</li>
-                    <li>Über uns</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#ourteam">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
+
         <main>
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>Welcome To Kaffispresso</h1>
-                </div>    
-            </div>
+
         </main>
-
-        <section class="supporting">
-            <div class="container">
-
-                <div class="col">
-                    <img src="./resources/css/Kaffe.png">
-                    <h2>Kaffee</h2>
-                    <p>Der perfekte Einstieg in den Tag mit dem Kaffee von Kaffispresso</p>
-                    <a href="#">Mehr Über</a>
-                </div>
-
-                <div class="col">
-                    <img src="./resources/css/Espresso.png">
-                    <h2>Espresso</h2>
-                    <p>Müde obwohl erst Znünipause ist? Dann hol dir unser Espresso</p>
-                    <a href="#">Mehr Über</a>
-                </div>
-
-                <div class="col">
-                    <img src="./resources/css/Latte.png">
-                    <h2>Milkshake</h2>
-                    <p>Du hast denn Kaffee geschmack satt? Dann hol dir ein Milkshake</p>
-                    <a href="#">Mehr Über</a>
-                </div>
-            </div>
-        </section>
         
-        <footer>
-            <div class="container">
-              <p>&copy; Kaffispresso 2023</p>
+        <div class="content">
+            <section class=" product-container" id="products">
+                <div class="card">
+                    <div class="card-image pr1"></div>
+                    <h2>Compression Shirt</h2>
+                    <p class="price">$39.99</p>
+                    <p>Modern Black</p>
+                    <p><a href="#products">Add to Cart</a></p>
+                </div>
+                <div class="card">
+                    <div class="card-image pr2"></div>
+                    <h2>Shaker Bottle</h2>
+                    <p class="price">$9.99</p>
+                    <p>Black</p>
+                    <p><a href="#products">Add to Cart</a></p>
+                </div>
+                <div class="card">
+                    <div class="card-image pr3"></div>
+                    <h2>Oversized Joggers</h2>
+                    <p class="price">$24.99</p>
+                    <p>Hot Pink</p>
+                    <p><p><a href="#products">Add to Cart</a></p></p>
+                </div>
+                <div class="card">
+                    <div class="card-image pr4"></div>
+                    <h2>Zero Z Gym Bag</h2>
+                    <p class="price">$49.99</p>
+                    <p>White</p>
+                    <p><a href="#products">Add to Cart</a></p>
+                </div>
+            </section>
+        </div>
+
+        <div class="mission container" id="mission">
+            <div class="content"></div>
+                <div class="mission container">
+                    <h2>Our Mission</h2>
+                    <h3>We want to offer...</h3>
+                    <p>A Luxury Gym Brand for the People that also want to look stylish in the Gym. Our Clothes are High Quality. no sea takimata sanctus est Lorem ipsum dolor sit 
+                    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, se</p>
+                </div>
             </div>
-          </footer>      
-    
+        </div>
+
+        <div class="content" id="ourteam">
+            <h2 class="title-team">Our Team</h2>
+            <div class="team">
+                <div class="employer container">
+                    <div class="team-img ti1"></div>
+                    <h2>Jean Reynolds</h2>
+                    <h3>C.E.O - Founder and Owner</h3>
+                </div>
+
+                <div class="employer container">
+                    <div class="team-img ti2"></div>
+                    <h2>Diane Scott</h2>
+                    <h3>Marketing - Marketing Section Owner</h3>
+                </div>
+
+                <div class="employer container">
+                    <div class="team-img ti3"></div>
+                    <h2>Frederic Burgess</h2>
+                    <h3>Product Management - Products Section Owner</h3>
+                </div>
+            </div>
+        </div>
+
+        <footer id="contact">
+            <h2>GymGem</h2>
+            <h5>info@gymgem.com</h5>
+            <h5>917-555-8904</h5>
+            <p>&copy; GymGem 2023</p>
+        </footer>
     </body>
 </html>
- 

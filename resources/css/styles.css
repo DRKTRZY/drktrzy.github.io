@@ -1,0 +1,239 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    background-color: #2d2d30;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1e1e1e;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    padding: 1.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+header nav {
+    padding-right: 1.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header h2 {
+    margin-right: auto;
+    color: white;
+    font-family: Bebas, Arial, Helvetica, sans-serif;
+}
+
+.logo-text {
+    color: white;
+}
+
+.logo-text:hover, :visited {
+    color: white;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover,:focus {
+    color: #ac2727;
+}
+
+
+main  {
+    padding: 5% 0 50%;
+    height: 100%;
+    background-image: url("landingpage.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15rem 0 15rem 0;
+}
+
+.card {
+    background-color: #1e1e1e;
+    width: 18.3rem;
+    height: 33.3rem;
+    margin: 1.2rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.card h2 {
+    font-family: Oswald;
+}
+
+.card-image {
+    background-color: white;
+    height: 15rem;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.pr1, .pr2, .pr3, .pr4 {
+    background-image: url("example-product.png");
+}
+
+.card p {
+    text-align: center;
+}
+
+.price {
+    color: #ac2727;
+    font-weight: bold;
+}
+
+.card a {
+    text-decoration: none;
+    display: block;
+    border: 0.2rem solid;
+    color: white;
+    padding: 1.2rem;
+    margin: 1.5rem 2.5rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.card a:hover, :focus {
+    transition: 0.45s; 
+    border-color: #ac2727;
+    color: #ac2727;
+  }
+
+
+.mission {
+    padding: 5rem 0 10rem 0; 
+    background-color: #555;
+    text-align: center;
+    color: white;
+}
+
+.mission h2 {
+    padding-bottom: 100px;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+.mission h3 {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #ac2727;
+}
+
+.mission p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15rem;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 15rem 0; 
+}
+
+.title-team  {
+    margin: 0;
+    text-align: center;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 5em;
+    padding: 8rem 0 0 0; 
+}
+
+.employer {
+    background-color: #1e1e1e;
+    width: 18.3rem;
+    height: 33.3rem;
+    margin: 5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.employer h2 {
+    font-family: Oswald;
+}
+
+.team-img {
+    background-color: white;
+    height: 25rem;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.ti1 {
+    background-image: url("ceo.jpg");
+}
+
+.ti2 {
+    background-image: url("marketing.jpg");
+}
+
+.ti3 {
+    background-image: url("product-managment.jpg");
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 100%;  
+    background-color: #555;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+footer h2 {
+    font-family: Beba, Arial, Helvetica, sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 950px) {
+    .mission p {
+      max-width: 25rem;
+    }
+  }
